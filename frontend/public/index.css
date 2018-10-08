@@ -1,0 +1,33 @@
+html {
+  height: 100%;
+}
+
+body {
+  background-color: #ffffff;
+  margin: 0;
+  height: 100%;
+}
+
+#root {
+  font-family: 'IBM Plex Sans', sans-serif;
+  padding: 0px 20px 15px 10px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: #000000 !important;
+}
+
+a {
+  color: #0079FB !important;
+}
+
+a:visited {
+  color: #0079FB !important;
+}
+
+.pt-button-group.pt-vertical.pt-fixed {
+  margin-top: 6px !important;
+}

@@ -1,0 +1,6 @@
+__pycache__
+.env
+.vscode
+.cache
+.pyre
+.pyre_configuration

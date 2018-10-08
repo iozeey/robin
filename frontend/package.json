@@ -1,0 +1,39 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@blueprintjs/core": "^2.3.1",
+    "echarts": "^4.1.0",
+    "echarts-for-react": "^2.0.8",
+    "history": "^4.7.2",
+    "numeral": "^2.0.6",
+    "prop-types": "^15.6.1",
+    "query-string": "5",
+    "ramda": "^0.25.0",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-redux": "^5.0.7",
+    "react-responsive": "^4.1.0",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-router-redux": "^5.0.0-alpha.9",
+    "react-scripts": "1.1.4",
+    "react-transition-group": "^2.3.1",
+    "react-virtualized": "^9.18.5",
+    "recompose": "^0.27.0",
+    "redux": "^4.0.0",
+    "redux-saga": "^0.16.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "REACT_APP_API_PREFIX='/api' react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "eslint-plugin-react": "^7.7.0"
+  },
+  "proxy": "http://localhost:4000",
+  "homepage": "https://robintrack.net"
+}
